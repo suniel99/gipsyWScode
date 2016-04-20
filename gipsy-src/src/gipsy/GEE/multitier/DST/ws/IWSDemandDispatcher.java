@@ -1,8 +1,8 @@
-package gipsy.GEE.multitier.DST.rmi;
+package gipsy.GEE.multitier.DST.WS;
 
 import gipsy.GEE.IDP.DemandDispatcher.IDemandDispatcher;
 
-import java.rmi.Remote;
+
 
 /**
  * An interface for RMI Demand Dispatcher that extends the API from IDemandDispatcher interface 
@@ -12,7 +12,7 @@ import java.rmi.Remote;
  * @version $Id: IRMIDemandDispatcher.java,v :
  */
 
-public interface IRMIDemandDispatcher extends Remote, IDemandDispatcher{
+public interface IWSDemandDispatcher extends IDemandDispatcher{
 
 	
 	
